@@ -1,0 +1,20 @@
+cd connexion ; 
+g++ -Wall *.cpp -o connexion.cgi ; 
+sudo mv connexion.cgi /usr/lib/cgi-bin ; 
+cd .. ; 
+cd inscription ; 
+g++ -Wall *.cpp -o inscription.cgi ; 
+sudo mv inscription.cgi /usr/lib/cgi-bin ; 
+cd .. ; 
+cd delete_user ; 
+g++ -Wall *.cpp -o delete_user.cgi ; 
+sudo mv delete_user.cgi /usr/lib/cgi-bin ; 
+cd .. ; 
+cd detail_user ; 
+g++ -Wall *.cpp -o detail_user.cgi ; 
+sudo mv detail_user.cgi /usr/lib/cgi-bin ;
+cd .. ;
+cd modify_user ;
+g++ -Wall *.cpp -o modify_user.cgi ;
+sudo mv modify_user.cgi /usr/lib/cgi-bin ;
+cd ..

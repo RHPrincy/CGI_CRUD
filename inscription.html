@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CGI</title>
+</head>
+<body>
+    <h1>INSCRIPTION</h1>
+    <form action="/cgi-bin/inscription.cgi" method="post">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="address">Adresse:</label>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="birthdate">Date de naissance:</label>
+        <input type="date" name="birthdate" id="birthdate"><br><br>
+
+        <input type="submit" value="S'inscrire">
+        <p>Deja un compte ? <a href="index.html">Connectez-vous</a></p>
+    </form>
+</body>
+</html>

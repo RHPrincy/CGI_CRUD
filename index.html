@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CGI</title>
+</head>
+<body>
+    <h1>CONNEXION</h1>
+    <form action="/cgi-bin/connexion.cgi" method="post">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+
+        <input type="submit" value="Se connecter">
+        <p>Pas de compte ? <a href="inscription.html">Inscrivez-vous</a></p>
+    </form>
+</body>
+</html>
